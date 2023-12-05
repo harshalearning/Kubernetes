@@ -38,7 +38,7 @@ K8s Architecture:
 
     Now, API server is heart of kubernetes server which takes all requests from external world. It decides everything and there are different components to deliver the decesion taken by API server.
 
-    In the same way if a request is created by user to create POD and he access the API server, then API server decides on which node it has to run and to run this POD API server has component called Scheduler, which schedules the PODS/resources on Kubernetes.
+    In the same way if a request is created by user to create POD and he access the API server, then API server decides on which worker node it has to run and to run this POD, API server has component called Scheduler, which schedules the PODS/resources on Kubernetes.
 
     NOTE: Kube-scheduler acts on the request but decided by API server.
 
